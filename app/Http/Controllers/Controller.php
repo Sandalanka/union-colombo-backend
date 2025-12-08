@@ -9,6 +9,9 @@ use Illuminate\Http\Exceptions\HttpResponseException;
 use Exception;
 use Illuminate\Support\Collection;
 
+/**
+ * @OA\Info(title="Union Colombo Backend Api", version="0.1")
+ */
 abstract class Controller
 {
     /**
